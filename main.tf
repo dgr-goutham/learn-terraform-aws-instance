@@ -10,8 +10,6 @@ terraform {
 provider "aws" {
   # Configuration options
   region                   = var.region
-  shared_config_files      = ["C:/Users/dgr_g/.aws/conf"]
-  shared_credentials_files = ["C:/Users/dgr_g/.aws/credentials"]
 }
 
 resource "aws_instance" "web_server" {
